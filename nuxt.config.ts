@@ -12,6 +12,10 @@ export default defineNuxtConfig({
     families: { 
       Prompt: true
     }
-  }
+  },
+
+  app: {
+    pageTransition: { name: 'page', mode: 'out-in' }
+  },
 
 })
