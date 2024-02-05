@@ -6,6 +6,8 @@ export default defineNuxtConfig({
     '@nuxtjs/google-fonts',
     '@nuxtjs/tailwindcss'
   ],
+
+  plugins: ["~/plugins/preline.client.ts"],
   
   googleFonts: {
     preload: true, 
