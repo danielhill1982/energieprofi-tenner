@@ -1,7 +1,7 @@
 <template>
   <div class="bg-black container mx-auto">
     <header>
-      <div class="flex boxy blur-xl justify-center">
+      <div class="flex boxy blur-xl opacity-0 justify-center">
       <img src="/img/logo.png" alt="" title="">
     </div>
     <div class="flex justify-center text-white">
@@ -17,7 +17,7 @@
     </div>
     <div id="navbar-collapse-with-animation" class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block">
       <div class="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5">
-        <NuxtLink class="p-2" to="/">Startseite</NuxtLink>
+      <NuxtLink class="p-2" to="/">Startseite</NuxtLink>
       <NuxtLink class="p-2" to="/photovoltaikanlagen">Photovoltaikanlagen</NuxtLink>
       <NuxtLink class="p-2" to="/blockheizkraftwerke">Blockheizkraftwerke</NuxtLink>
       <NuxtLink class="p-2" to="/sicherheitssysteme">Sicherheitssysteme</NuxtLink>
